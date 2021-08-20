@@ -1,0 +1,104 @@
+body {
+    background-color: #005427;
+    margin: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #FF8200;
+}
+
+header {
+    margin: 25px;
+}
+
+.headertitle {
+    float: left;
+}
+
+.headersocial {
+    float: right;
+    display: flex;
+    letter-spacing: 1em;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #FF8200;
+}
+
+h2 {
+    color: #FF8200;
+    text-decoration: underline;
+}
+
+#nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav-bar li {
+    float: left;
+}
+
+#nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+#nav-bar li a:hover {
+    color: #FF8200
+}
+
+#biophoto {
+    border: solid;
+    border-color: #FF8200;
+}
+
+#aboutme li {
+    line-height: 2em;
+    list-style: none;
+}
+
+#interests li {
+    line-height: 2em;
+    list-style: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}

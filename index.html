@@ -5,22 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - Justin Miles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 
-    <h1 id="home">Profile - Justin Miles</h1>
+    <header class="header">
+    <h1 class="headertitle" id="home">Profile - Justin Miles</h1>
+    <ul class="headersocial">
+        <li><a href="https://www.linkedin.com/in/milesjustin/" class="fa fa-linkedin" style="font-size:36px"></a></li>
+        <li><a href="https://github.com/nomad1127" class="fa fa-github" style="font-size:36px"></a></li>
+        <li><a href="https://stackoverflow.com/users/16563783/jmiles" class="fa fa-stack-overflow" style="font-size:36px"></a></li>
+        <li><a href="https://medium.com/@jdmiles90" class="fa fa-medium" style="font-size:36px"></a></li>
+        <li><a href="https://www.instagram.com/jmiles.raw" class="fa fa-instagram" style="font-size:36px"></a></li>
+        <li><a href="https://twitter.com/jmiles90" class="fa fa-twitter" style="font-size:36px"></a></li>        
+    </ul>
 
-    <nav>
+    <nav id="nav-bar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a href="#interests">Interests</a></li>
+            <li><a class="nav-links" href="#home">Home</a></li>
+            <li><a class="nav-links" href="#aboutme">About Me</a></li>
+            <li><a class="nav-links" href="#interests">Interests</a></li>
         </ul>
     </nav>
+    </header>
 
     <br>
 
-    <section>
+    <section id="aboutme">
         <audio src="mp3s/soundhelix3.mp3" controls loop>
             Your browser does not support HTML5 audio. Here is <a href="mp3s/soundhelix3.mp3">a link to the audio</a> instead.
         </audio>
@@ -29,13 +41,9 @@
         <br>
         <br>
         
-        <img src="images/jmiles.jpg" alt="jmiles with dogs" width="300">
-        
-        <br>
-        <br>
-        <br>
+        <img id="biophoto" src="images/jmiles.jpg" alt="jmiles with dogs" width="300">
 
-        <h2 id="aboutMe">About Me</h2>
+        <h2>About Me</h2>
             <ul>
                 <li>I was born outside of Atlanta, Georgia, USA.</li>
                 <li>I currently reside in the northern suburbs of Chicago, Illinois, USA.</li>
@@ -46,8 +54,8 @@
 
     <br>
 
-    <section>
-        <h2 id="interests">Interests</h2>
+    <section id="interests">
+        <h2>Interests</h2>
         <ul>
             <li>Listening to music.</li>
             <li>Playing music (mediocre guitar player).</li>
@@ -81,6 +89,15 @@
 <br>
 <br>
 
-<footer>Created by <em><strong>Justin Miles</strong></em> using <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">HTML5</a></footer>
+<footer>
+    Created by <em><strong>Justin Miles</strong></em> using <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">HTML5</a>
+    <br>
+    <a href="https://www.linkedin.com/in/milesjustin/" class="fa fa-linkedin" style="font-size:36px"></a>
+    <a href="https://github.com/nomad1127" class="fa fa-github" style="font-size:36px"></a>
+    <a href="https://stackoverflow.com/users/16563783/jmiles" class="fa fa-stack-overflow" style="font-size:36px"></a>
+    <a href="https://medium.com/@jdmiles90" class="fa fa-medium" style="font-size:36px"></a>
+    <a href="https://www.instagram.com/jmiles.raw" class="fa fa-instagram" style="font-size:36px"></a>
+    <a href="https://twitter.com/jmiles90" class="fa fa-twitter" style="font-size:36px"></a>   
+</footer>
 
 </html>
